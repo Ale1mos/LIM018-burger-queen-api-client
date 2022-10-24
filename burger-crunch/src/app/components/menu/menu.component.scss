@@ -1,5 +1,112 @@
-
+*{
+  margin: 0;
+}
+body{
+  background-color: white;
+}
 p{
   color:aliceblue;
 }
+main{
+  display: flex;
+  margin: 20px;
+  height: 470px;
+}
+header{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+#burgerLogo{
+  width: 7%;
+  border: solid green;
+}
+#waiterImg{
+  width: 8%;
+}
+#iconsFood{
+  background-color: rgba(202, 155, 51, 1);
+  margin-right: 20px;
+}
+#containerClient{
+  // background-color: rgba(223, 194, 99, 0.562);
+  background-color: rgba(236, 220, 184, 1);
+  height: 50px;
+  display: flex;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 3px 1px;
+}
+#containerClient div{
+  margin: 10px;
+}
+#containerClient input{
+  border: none;
+  border-radius: 8px;
+  margin: 3px;
+  height: 20px;
+}
+#containerOrder{
+  background-color: rgba(224, 197, 137, 1);
+  display: flex;
+  margin: 15px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 2px 2px 3px 1px;
+  height: 370px;
+  // display: flex;
+}
+h3{
+  margin: 25px;
+}
+#containerOrderInfo{
+  display: flex;
+  // border: solid;
+  margin-bottom: 15px;
+  height: 200px;
+  margin-top: 5px;
+}
+.orderInfo{
+  margin: 40px;
+  margin-top: 2px;
+}
+button{
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(207, 175, 32);
+  cursor: pointer;
+  margin: 10px;
+  padding: 5px;
+}
+
+#containerSearchFood{
+  width: 50%;
+  margin-top: 10px;
+}
+#searchFood{
+  border: none;
+  background-color: white;
+  border-radius: 15px;
+  border: solid 1.4px rgb(84, 83, 83);
+  padding: 7px;
+  width: 75%;
+  margin-top: 8px;
+}
+#clientAndOrder{
+  width: 45% ;
+  // height: 400px;
+}
+#iconsFood{
+  width: 20%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  margin-top: 74px;
+  box-shadow: 2px 2px 3px 1px;
+}
+
+
+
+
 

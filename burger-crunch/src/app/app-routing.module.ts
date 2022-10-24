@@ -5,7 +5,7 @@ import { MenuComponent } from './components/menu/menu.component';
 
 const routes: Routes = [
   {path:'' , component:LoginComponent},
-  // {path:'login', component:LoginComponent},
+  {path:'login', component:LoginComponent},
   {path:'menu', component:MenuComponent},
 ];
 
@@ -14,3 +14,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+export const routingComponents = [LoginComponent]

@@ -1,17 +1,27 @@
 <section class="sectionLogin">
   <div class="logo-container">
-    <img src="../../../assets/images/burger-crunch.png">
+    <img src="../../../assets/images/burger-crunch.png" />
   </div>
-  <form [formGroup]="loginForm" (ngSubmit)="onLogin(loginForm.value)" class="loginForm">
+  <form [formGroup]="loginForm" (ngSubmit)="onLogin()" class="loginForm">
     <div id="login" class="loginContainer">
       <p>
-      <input type="email" class="input" placeholder="email" formControlName="email">
+        <input
+          type="email"
+          class="input"
+          placeholder="email"
+          formControlName="email"
+        />
       </p>
     </div>
     <div>
       <p>
-        <input type="password" class="input" placeholder="password" formControlName="password">
-        </p>
+        <input
+          type="password"
+          class="input"
+          placeholder="password"
+          formControlName="password"
+        />
+      </p>
     </div>
     <div>
       <button type="submit" class="btn btn-primary">Ingresar</button>

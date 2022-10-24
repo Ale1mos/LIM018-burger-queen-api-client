@@ -1,30 +1,54 @@
-<p>menu works!</p>
+<!-- <p>menu works!</p> -->
 <body>
   <header>
-    <img src="../../../assets/images/burger-crunch.png" alt="">
-    <img src="" alt="">
+    <img id="burgerLogo" src="../../../assets/images/burger-crunch.png" alt="">
+    <img id="waiterImg" src="../../../assets/images/Sin título.png" alt="">
   </header>
-  <section></section>
-  <section>
-    <input type="text">
-    <div id="containerFood"></div>
-  </section>
-  <section>
-    <div>
-      <input type="text">
-      <input type="number" min="1" max="8">
-    </div>
-    <div>
-      <h3>Orden de Pedido</h3> 
-      <div>
-        <p>Descripción</p>
-        <div id="chooseFood"></div>
-        <p>Cantidad</p>
-        <div id="quantityFood"></div>
-        <p>Precio</p>
-        <div id="priceFood"></div>
+  <main>
+    <section id="iconsFood">
+      <p></p>
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </section>
+    <section id="containerSearchFood">
+      <div id="icon">
+        <input id="searchFood" placeholder="Buscar" type="search">
+        <!-- <i class="fa fa-search"></i> -->
       </div>
-      <input type="button">
-    </div>
-  </section>
+      <div id="containerFood"></div>
+    </section>
+    <section id="clientAndOrder">
+      <div id="containerClient">
+        <div>
+          <label for="">Cliente: </label><input type="text">
+        </div>
+        <div>
+          <label for="">Mesa: </label><input type="number" min="1" max="8">
+        </div>
+      </div>
+      <div id="containerOrder">
+        <h3>Orden de Pedido</h3>
+        <div id="containerOrderInfo">
+          <div class="orderInfo">
+            <p>Descripción</p>
+            <div id="chooseFood"></div>
+          </div>
+          <div class="orderInfo">
+            <p>Cantidad</p>
+            <div id="quantityFood"></div>
+          </div>
+          <div class="orderInfo">
+            <p>Precio</p>
+            <div id="priceFood"></div>
+          </div>
+        </div>
+        <div id="orderBtn">
+          <button>Confirmar</button>
+          <button>Cancelar</button>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
